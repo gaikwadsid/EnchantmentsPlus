@@ -96,7 +96,20 @@ public enum BaseEnchantments {
     UNREPAIRABLE(73),
     VARIETY(65),
     VORTEX(66),
-    WEIGHT(67);
+    WEIGHT(67),
+    BONUS(101),
+    CRITICAL(102),
+    DEFORESTER(103),
+    FREEZER(104),
+    GLOWING(105),
+    INSTANTSMELT(106),
+    LIFESTEAL(107),
+    MIGHT(108),
+    TELEKINESIS(109),
+    THUNDERSTRUCK(110),
+    WHET(111),
+    ICERASPECT(112),
+    ENERGY(113);
 
     private final short legacyID;
 

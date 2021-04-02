@@ -35,6 +35,9 @@ public final class Tool {
     public static final Tool HOE = new Tool();
     public static final Tool PICKAXE = new Tool();
     public static final Tool SHOVEL = new Tool();
+    
+    public static final Tool TRIDENT = new Tool();
+    public static final Tool CROSSBOW = new Tool();
 
     public static final Tool HELMET = new Tool();
     public static final Tool CHESTPLATE = new Tool();
@@ -57,7 +60,7 @@ public final class Tool {
      */
     public static Tool[] values = new Tool[] {
             AXE, HOE, PICKAXE, SHOVEL, HELMET, CHESTPLATE, WINGS, LEGGINGS,
-            BOOTS, BOW, SWORD, ROD, SHEARS, ALL
+            BOOTS, BOW, SWORD, ROD, SHEARS, ALL, TRIDENT, CROSSBOW
     };
 
     private EnumSet<Material> materials;
@@ -103,6 +106,10 @@ public final class Tool {
         case "wings":
         case "elytra":
             return WINGS;
+        case "trident":
+        	return TRIDENT;
+        case "crossbow":
+        	return CROSSBOW;
         case "all":
             return ALL;
         }

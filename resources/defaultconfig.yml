@@ -559,7 +559,97 @@ enchantments:
       Max Level: 1
       Cooldown: 0
       Power: 1.0
-  
+  - Bonus:
+      Probability: 0.0
+      Tools: Helmet, Chestplate, Leggings, Boots
+      Name: Bonus
+      Max Level: 1
+      Cooldown: 0
+      Power: 1.0
+  - Critical:
+      Probability: 0.0
+      Tools: Sword
+      Name: Critical
+      Max Level: 3
+      Cooldown: 0
+      Power: 1.0
+  - Deforester:
+      Probability: 0.0
+      Tools: Axe
+      Name: Deforester
+      Max Level: 3
+      Cooldown: 0
+      Power: 1.0
+  - Energy:
+      Probability: 0.0
+      Tools: Crossbow
+      Name: Energy
+      Max Level: 5
+      Cooldown: 0
+      Power: 1.0
+  - Freezer:
+      Probability: 0.0
+      Tools: Crossbow, Bow, Trident
+      Name: Freezer
+      Max Level: 2
+      Cooldown: 30000
+      Power: 1.0
+  - Glowing:
+      Probability: 0.0
+      Tools: Sword, Axe
+      Name: Glowing
+      Max Level: 1
+      Cooldown: 0
+      Power: 1.0
+  - IcerAspect:
+      Probability: 0.0
+      Tools: Sword, Axe
+      Name: IcerAspect
+      Max Level: 2
+      Cooldown: 30000
+      Power: 1.0
+  - InstantSmelt:
+      Probability: 0.0
+      Tools: Pickaxe
+      Name: InstantSmelt
+      Max Level: 1
+      Cooldown: 0
+      Power: 1.0
+  - LifeSteal:
+      Probability: 0.0
+      Tools: Sword, Axe, Crossbow, Trident, Bow
+      Name: LifeSteal
+      Max Level: 3
+      Cooldown: 0
+      Power: 1.0
+  - Might:
+      Probability: 0.0
+      Tools: Helmet
+      Name: Might
+      Max Level: 1
+      Cooldown: 0
+      Power: 1.0
+  - Telekinesis:
+      Probability: 0.0
+      Tools: Pickaxe, Shovel
+      Name: Telekinesis
+      Max Level: 1
+      Cooldown: 0
+      Power: 1.0
+  - ThunderStruck:
+      Probability: 0.0
+      Tools: Bow
+      Name: ThunderStruck
+      Max Level: 1
+      Cooldown: 0
+      Power: 1.0
+  - Whet:
+      Probability: 0.0
+      Tools: Trident
+      Name: Whet
+      Max Level: 5
+      Cooldown: 0
+      Power: 1.0
 #  Changes the overall probability of obtaining all custom enchantments
 enchant_rarity: 25.0
 
